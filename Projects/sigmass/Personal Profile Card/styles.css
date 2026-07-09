@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #696969;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D3D3D3;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.img-text-container {
+    text-align: center;
+}
+
+.text-container {
+    line-height: 1.5;
+}
